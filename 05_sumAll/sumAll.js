@@ -1,5 +1,3 @@
-const { type } = require("doctrine");
-
 function notNum(thing) {
   if (isNaN(thing) || typeof thing === "string") return true;
   else return false;
